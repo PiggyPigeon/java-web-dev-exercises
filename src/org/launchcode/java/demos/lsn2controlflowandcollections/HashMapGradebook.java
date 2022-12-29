@@ -16,7 +16,6 @@ public class HashMapGradebook {
 
         // Get student names and grades
         do {
-
             System.out.print("Student: ");
             newStudent = input.nextLine();
 
