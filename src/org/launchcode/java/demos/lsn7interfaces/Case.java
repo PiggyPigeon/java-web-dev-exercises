@@ -2,6 +2,7 @@ package org.launchcode.java.demos.lsn7interfaces;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Case {
     private ArrayList<Flavor> flavors = new ArrayList<>();
@@ -29,10 +30,7 @@ public class Case {
         flavors.add(flavor5);
     }
 
-    public ArrayList<Flavor> getFlavors() {
-        return flavors;
-    }
-
+    public ArrayList<Flavor> getFlavors() { return flavors; }
     public ArrayList<Cone> getCones() {
         return cones;
     }
@@ -44,4 +42,6 @@ public class Case {
     public void setCones(ArrayList<Cone> cones) {
         this.cones = cones;
     }
+
+
 }

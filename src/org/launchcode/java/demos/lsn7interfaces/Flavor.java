@@ -10,4 +10,8 @@ public class Flavor extends Ingredient {
     }
 
 
+    @Override
+    public String toString() {
+        return this.getName();
+    }
 }

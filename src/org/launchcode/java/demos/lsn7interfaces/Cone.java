@@ -9,4 +9,8 @@ public class Cone extends Ingredient {
     }
 
 
+    @Override
+    public String toString() {
+        return new Double(this.getCost()).toString();
+    }
 }
